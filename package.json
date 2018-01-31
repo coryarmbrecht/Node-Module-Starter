@@ -1,0 +1,31 @@
+{
+  "name": "npm-poi",
+  "version": "0.0.1",
+  "description": "npm module setup with poi for es6, sass, jsx, etc",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "poi",
+    "test": "poi test && mocha src/index.test.transformed.js",
+    "build": "poi build"
+  },
+  "keywords": [
+    "npm",
+    "poi"
+  ],
+  "author": "Cory Armbrecht",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "timeago.js": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.0",
+    "poi": "^9.6.13",
+    "poi-preset-transform-test-files": "^10.0.0",
+    "sinon": "^4.2.2"
+  }
+}
